@@ -1,0 +1,100 @@
+:root {
+  --bg: #eef4fb;
+  --card: #ffffff;
+  --ink: #1b2f42;
+  --muted: #496179;
+  --line: #cad8e7;
+  --accent: #1f5f9c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top right, #dfeeff 0%, var(--bg) 45%, #e8f0f8 100%);
+  color: var(--ink);
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+.options-wrap {
+  max-width: 760px;
+  margin: 24px auto;
+  padding: 0 16px 24px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.subhead {
+  margin: 6px 0 18px;
+  color: var(--muted);
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 14px;
+  margin-bottom: 12px;
+}
+
+h2 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 8px 0;
+  color: var(--muted);
+}
+
+.row.checkbox {
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+input[type="number"],
+select {
+  min-width: 220px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 6px 8px;
+  font-size: 14px;
+  color: var(--ink);
+  background: #fff;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+button {
+  border: 1px solid #2b5f90;
+  background: #2b5f90;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+button.secondary {
+  border-color: #7894ad;
+  background: #f6fbff;
+  color: #36526c;
+}
+
+#status {
+  margin-left: 8px;
+  color: #2e5c2d;
+  font-size: 13px;
+}
