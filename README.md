@@ -2,6 +2,10 @@
 
 SpringInfo is a Chrome extension that augments Eureka `/registry` pages with per-instance info and quick Swagger navigation.
 
+## Preview
+
+![SpringInfo interface showing service information and navigation tools](store-assets/screenshot-1-1280x800.jpg)
+
 ## Features
 
 - Adds a green `swagger` link inline in the Status cell.
